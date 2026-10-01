@@ -9,6 +9,14 @@ shortcut) to pop open your clipboard history and saved snippets. A clean, airy
 light interface with a gold accent. Everything is stored locally in a JSON
 file; nothing leaves your machine.
 
+
+## Images
+
+<img width="652" height="812" alt="Screenshot 2026-09-30 at 7 03 13 PM" src="https://github.com/user-attachments/assets/fb94ba41-c062-451a-9c99-88e7f599e15f" />
+<img width="652" height="812" alt="Screenshot 2026-09-30 at 7 03 33 PM" src="https://github.com/user-attachments/assets/132b388f-cbe0-4200-8105-7d58c75391eb" />
+<img width="1032" height="732" alt="Screenshot 2026-09-30 at 7 03 51 PM" src="https://github.com/user-attachments/assets/afab0c44-8fcc-4fab-ad44-9bb912ab06d1" />
+
+
 ## Features
 
 **Menu-bar popover**
