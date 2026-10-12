@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/logo.svg" width="96" height="96" alt="Corral’s fox mascot" />
+  <img src="https://Priyadharshan0903.github.io/Corral-Releases/assets/logo.svg" width="96" height="96" alt="Corral’s fox mascot" />
 </p>
 
 <h1 align="center">Corral</h1>
@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Priyadharshan0903/Corral-Releases/releases/download/v1.3.1/Corral-1.3.1-arm64.zip"><img src="https://img.shields.io/badge/Download_for_Mac-1.3.1-cf6c48?style=for-the-badge&amp;logo=apple&amp;logoColor=white" alt="Download Corral 1.3.1 for Apple Silicon" /></a>
+  <a href="https://github.com/Priyadharshan0903/Corral-Releases/releases/download/v1.3.3/Corral-1.3.3-arm64.dmg"><img src="https://img.shields.io/badge/Download_for_Mac-1.3.3-cf6c48?style=for-the-badge&amp;logo=apple&amp;logoColor=white" alt="Download Corral 1.3.3 DMG for Apple Silicon" /></a>
   <a href="https://Priyadharshan0903.github.io/Corral-Releases/"><img src="https://img.shields.io/badge/Website-Visit-555b64?style=for-the-badge" alt="Visit the Corral website" /></a>
 </p>
 
@@ -33,7 +33,7 @@ not uploaded to an OCR service.
   amounts, and numeric codes have their own copy controls.
 - **Find it again** by searching the recognized text after extraction.
 
-<p align="center"><img src="website/reference-card.svg" width="560" alt="Illustrative developer reference image with a terminal command, documentation link, and email address" /></p>
+<p align="center"><img src="https://Priyadharshan0903.github.io/Corral-Releases/assets/reference-card.svg" width="560" alt="Illustrative developer reference image with a terminal command, documentation link, and email address" /></p>
 
 For example, a copied setup screenshot can give you `kubectl get pods -A`,
 `https://example.com/docs`, and `hello@example.com` as reusable text. The image
@@ -65,7 +65,7 @@ in the tray popup. Copy a snippet with a click or a keyboard shortcut.
 
 | Dark | Light |
 | :---: | :---: |
-| <img src="docs/images/popup-dark.png" width="360" alt="Corral’s dark clipboard popup showing saved snippet names" /> | <img src="docs/images/popup-light.png" width="360" alt="Corral’s light clipboard popup showing saved snippet names" /> |
+| <img src="https://Priyadharshan0903.github.io/Corral-Releases/assets/screenshots/popup-dark.png" width="360" alt="Corral’s dark clipboard popup showing saved snippet names" /> | <img src="https://Priyadharshan0903.github.io/Corral-Releases/assets/screenshots/popup-light.png" width="360" alt="Corral’s light clipboard popup showing saved snippet names" /> |
 
 ## Keep the useful things nearby
 
@@ -93,12 +93,12 @@ For example, give your Kubernetes commands names you can find quickly:
 
 Corral copies these snippets for you to paste into your terminal.
 
-![Corral’s dark Library with an invented saved snippet open in the editor](docs/images/library-dark.png)
+![Corral’s dark Library with an invented saved snippet open in the editor](https://Priyadharshan0903.github.io/Corral-Releases/assets/screenshots/library-dark.png)
 
 <details>
 <summary>See the Library in light mode</summary>
 
-![Corral’s light Library](docs/images/library-light.png)
+![Corral’s light Library](https://Priyadharshan0903.github.io/Corral-Releases/assets/screenshots/library-light.png)
 
 </details>
 
@@ -107,14 +107,14 @@ Corral copies these snippets for you to paste into your terminal.
 Notes is a plain-text scratchpad inside the popup. Start typing, leave when you
 need to, and come back to your draft.
 
-<p align="center"><img src="docs/images/notes-dark.png" width="360" alt="Corral’s Notes tab with a plain-text draft, word count, and copy button" /></p>
+<p align="center"><img src="https://Priyadharshan0903.github.io/Corral-Releases/assets/screenshots/notes-dark.png" width="360" alt="Corral’s Notes tab with a plain-text draft, word count, and copy button" /></p>
 
 <details>
 <summary>Preferences in dark and light</summary>
 
 | Dark | Light |
 | :---: | :---: |
-| <img src="docs/images/preferences-dark.png" width="440" alt="Corral’s dark Preferences sidebar" /> | <img src="docs/images/preferences-light.png" width="440" alt="Corral’s light Preferences sidebar" /> |
+| <img src="https://Priyadharshan0903.github.io/Corral-Releases/assets/screenshots/preferences-dark.png" width="440" alt="Corral’s dark Preferences sidebar" /> | <img src="https://Priyadharshan0903.github.io/Corral-Releases/assets/screenshots/preferences-light.png" width="440" alt="Corral’s light Preferences sidebar" /> |
 
 </details>
 
@@ -140,11 +140,11 @@ monochrome; changing the fox updates the app’s branding and running Dock icon.
 
 ## Download and run
 
-Download the [Apple Silicon ZIP](https://github.com/Priyadharshan0903/Corral-Releases/releases/download/v1.3.1/Corral-1.3.1-arm64.zip),
-extract **Corral.app**, and move it into **Applications**. Its fox lives in the
+Download the [Apple Silicon DMG](https://github.com/Priyadharshan0903/Corral-Releases/releases/download/v1.3.3/Corral-1.3.3-arm64.dmg),
+open the disk image, and drag **Corral.app** into **Applications**. Its fox lives in the
 menu bar; the app does not keep a Dock icon visible.
 
-This build is ad hoc signed and is not Apple-notarized. macOS may block its first
+This build is not Apple-notarized. macOS may block its first
 opening. After trying to open it, review **System Settings → Privacy & Security**
 and use **Open Anyway** only if you trust the download. See
 [Apple’s current instructions](https://support.apple.com/en-us/102445).
@@ -183,7 +183,7 @@ npm run dist:universal  # Universal Electron packaging target
 ```
 
 For local ad hoc signing, the ZIP fallback, and release publishing, see
-[PUBLISHING.md](PUBLISHING.md). The public download is Apple Silicon only;
+`PUBLISHING.md`. The public download is Apple Silicon only;
 Intel distribution also needs an Intel-compatible OCR helper.
 
 The foxes are editable SVGs. Generate their app icons and 1×/2× menu-bar PNGs
@@ -204,7 +204,7 @@ npm run website:serve
 
 The static output is `website/dist/`. The builder uses public release metadata,
 with a tracked snapshot as an offline fallback; the deployed page does not need
-a live GitHub API request. Website details are in [website/README.md](website/README.md).
+a live GitHub API request. Website details are in `website/README.md`.
 
 ### Regenerate screenshots
 
@@ -226,7 +226,7 @@ env PATH="$NVM_BIN:$PATH" ./node_modules/.bin/electron scripts/capture-screensho
 The harness uses a fresh temporary profile, invented fixtures, and hidden
 offscreen windows. It does not launch the clipboard app, read clipboard data,
 or load the production preload. More options are in
-[scripts/SCREENSHOTS.md](scripts/SCREENSHOTS.md).
+`scripts/SCREENSHOTS.md`.
 
 ### Project layout
 
