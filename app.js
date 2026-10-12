@@ -79,12 +79,12 @@
     try { url = new URL(release.url); } catch (_) { return; }
     if (url.protocol !== 'https:' || url.hostname !== 'github.com' || !url.pathname.startsWith('/Priyadharshan0903/Corral-Releases/releases/')) return;
 
-    const filename = typeof release.filename === 'string' ? release.filename : '';
-    const suppliedFormat = typeof release.format === 'string' ? release.format.toLowerCase() : '';
-    const format = ['zip', 'dmg'].includes(suppliedFormat) ? suppliedFormat : filename.toLowerCase().endsWith('.dmg') ? 'dmg' : filename.toLowerCase().endsWith('.zip') ? 'zip' : '';
+    const filename = `Corral-${version}-arm64.dmg`;
+    // Retain the HTML's verified DMG if stale or invalid metadata is returned.
+    if (release.format !== 'dmg' || release.filename !== filename || !url.pathname.endsWith(`/${filename}`)) return;
     document.querySelectorAll('[data-download]').forEach((link) => {
       link.href = url.href;
-      link.setAttribute('aria-label', `Download Corral ${version} for an Apple Silicon Mac${format ? `, ${format.toUpperCase()}` : ''}`);
+      link.setAttribute('aria-label', `Download Corral ${version} for an Apple Silicon Mac, DMG`);
     });
     document.querySelectorAll('[data-version]').forEach((element) => { element.textContent = `v${version}`; });
     if (typeof release.size === 'number' && Number.isFinite(release.size) && release.size > 0) {
@@ -93,16 +93,11 @@
         element.hidden = false;
       });
     }
-    if (format) document.querySelectorAll('[data-download-format]').forEach((element) => { element.textContent = `${format.toUpperCase()} download`; });
+    document.querySelectorAll('[data-download-format]').forEach((element) => { element.textContent = 'DMG download'; });
     const installAction = document.querySelector('[data-install-action]');
     const installDetail = document.querySelector('[data-install-detail]');
-    if (format === 'zip') {
-      installAction.textContent = 'Unzip, then add it to Applications.';
-      installDetail.textContent = 'Open the ZIP file, then move Corral.app into your Applications folder.';
-    } else if (format === 'dmg') {
-      installAction.textContent = 'Open the disk image.';
-      installDetail.textContent = 'Open the DMG and drag Corral.app into the Applications folder.';
-    }
+    installAction.textContent = 'Open the disk image.';
+    installDetail.textContent = 'Open the DMG and drag Corral.app into the Applications folder.';
   }
 
   const controller = new AbortController();
