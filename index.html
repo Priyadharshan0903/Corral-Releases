@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f7f3eb" />
+    <title>Corral — Keep the image. Copy the words.</title>
+    <meta name="description" content="Keep copied screenshots and visual references close. Extract text, links and emails with on-device OCR, and open Corral beside your mouse pointer with a global shortcut." />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Corral — Keep the image. Copy the words." />
+    <meta property="og:description" content="Copied images, on-device text extraction, and a clipboard popup right beside your mouse pointer. A small companion for your Mac." />
+    <link rel="canonical" href="https://Priyadharshan0903.github.io/Corral-Releases/" />
+    <meta property="og:url" content="https://Priyadharshan0903.github.io/Corral-Releases/" />
+    <meta property="og:image" content="https://Priyadharshan0903.github.io/Corral-Releases/assets/social-card.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" href="assets/logo.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header wrap">
+      <a class="brand" href="#top" aria-label="Corral home">
+        <img src="assets/logo.svg" width="42" height="42" alt="" />
+        <span>Corral<span class="brand-period">.</span></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="siteNav" hidden>Menu <span aria-hidden="true">＋</span></button>
+      <nav class="site-nav" id="siteNav" aria-label="Main navigation">
+        <a href="#images">Images &amp; OCR</a>
+        <a href="#library">The Library</a>
+        <a href="#install">Get settled</a>
+        <a class="nav-download" href="https://github.com/Priyadharshan0903/Corral-Releases/releases/download/v1.3.1/Corral-1.3.1-arm64.zip" data-download>Download <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero wrap" id="top" aria-labelledby="heroTitle">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="small-dot" aria-hidden="true"></span> macOS clipboard companion</p>
+          <h1 id="heroTitle">Keep the image.<br />Copy the <em>words.</em></h1>
+          <p class="hero-description">Screenshots, design references, that useful bit of documentation. Keep copied images close, and turn the text inside them into something you can paste. All on your Mac.</p>
+          <p class="hero-shortcut">Press <kbd>⌘ ⇧ E</kbd>. Corral opens beside your mouse pointer, from whichever app you’re in.</p>
+          <div class="hero-actions">
+            <a class="download-button" href="https://github.com/Priyadharshan0903/Corral-Releases/releases/download/v1.3.1/Corral-1.3.1-arm64.zip" data-download>
+              <svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12m-5-5 5 5 5-5M5 16v4h14v-4" /></svg>
+              <span>Download for Mac</span>
+            </a>
+            <a class="quiet-link" href="#images">See images &amp; OCR <span aria-hidden="true">↓</span></a>
+          </div>
+          <p class="download-caption">Apple Silicon · unsigned app</p>
+          <p class="shortcut-caption">Set E in Preferences. Fresh installs start with ⌘⇧R.</p>
+          <p class="release-caption"><span data-version>v1.3.1</span><span class="release-size" data-download-size>113 MB</span><span data-download-format>ZIP download</span></p>
+        </div>
+
+        <div class="hero-composition">
+          <div class="fox-note" aria-hidden="true"><img src="assets/logo.svg" width="90" height="90" alt="" /><span>A small companion.</span></div>
+          <figure class="hero-window">
+            <img src="assets/screenshots/popup-dark.png" data-screenshot="popup" data-light-src="assets/screenshots/popup-light.png" data-dark-src="assets/screenshots/popup-dark.png" width="880" height="1200" alt="Corral’s clipboard popup, showing saved snippet names." fetchpriority="high" />
+            <figcaption><span class="caption-rule" aria-hidden="true"></span>Right beside your pointer.</figcaption>
+          </figure>
+          <div class="shortcut-note"><span class="shortcut-keys" aria-label="Command Shift E"><kbd>⌘</kbd><kbd>⇧</kbd><kbd>E</kbd></span><span>Wherever you’re working.</span></div>
+        </div>
+      </section>
+
+      <div class="screenshot-controls wrap" data-appearance-switch hidden>
+        <span>Same little home. Two appearances.</span>
+        <div class="appearance-switch" role="group" aria-label="Appearance shown in app screenshots">
+          <button type="button" data-appearance="light" aria-pressed="false"><span class="appearance-dot light-dot" aria-hidden="true"></span>Light</button>
+          <button type="button" data-appearance="dark" aria-pressed="true"><span class="appearance-dot dark-dot" aria-hidden="true"></span>Dark</button>
+        </div>
+        <span class="sr-only" id="appearanceAnnouncement" role="status" aria-live="polite"></span>
+      </div>
+
+      <section class="image-section wrap" id="images" aria-labelledby="imageTitle">
+        <div class="section-intro reveal">
+          <div><p class="section-number">01 / Images with more to give</p><h2 id="imageTitle">Keep the reference.<br />Use what’s inside.</h2></div>
+          <p>A screenshot from a teammate. A UI you want to revisit. A link trapped in an image. Find copied images in Corral, copy them again, or open them in OCR to extract their text.</p>
+        </div>
+        <div class="ocr-example reveal" aria-label="Illustrative example of an image and its extracted text">
+          <figure class="reference-example">
+            <figcaption><span class="example-label">Copied image</span><span>Example content</span></figcaption>
+            <img src="assets/reference-card.svg" width="560" height="400" loading="lazy" alt="An illustrative Kubernetes reference image containing kubectl get pods -A, a documentation URL, and an example email address." />
+          </figure>
+          <span class="ocr-arrow" aria-hidden="true">→</span>
+          <div class="extraction-example">
+            <p class="example-label">Text you can use</p>
+            <pre><code>Cluster overview
+kubectl get pods -A
+
+Documentation
+https://example.com/docs
+
+Contact
+hello@example.com</code></pre>
+            <p class="example-label detected-label">Detected values</p>
+            <ul class="detected-examples" aria-label="Example values Corral can surface for copying"><li>https://example.com/docs</li><li>hello@example.com</li></ul>
+            <p class="example-caption">In Corral, copy all the recognized text or just a detected value.</p>
+          </div>
+        </div>
+        <dl class="image-benefits reveal">
+          <div><dt>Your visual references, close by</dt><dd>Browse copied screenshots and images in the Images tab. Select one to put it back on your clipboard.</dd></div>
+          <div><dt>Text extraction on your Mac</dt><dd>Apple Vision recognizes text when you open an image in OCR. Your image isn’t sent to an OCR service.</dd></div>
+          <div><dt>The useful details, ready to copy</dt><dd>Copy detected links, emails, phone numbers, dates, amounts, and numeric codes. Search recognized text after extraction.</dd></div>
+        </dl>
+      </section>
+
+      <section class="flow-section" id="features" aria-labelledby="flowTitle">
+        <div class="wrap flow-layout reveal">
+          <div>
+            <p class="section-number">02 / A shortcut that comes to you</p>
+            <h2 id="flowTitle">Your mouse points.<br />Corral follows.</h2>
+          </div>
+          <div class="flow-copy">
+            <p>Editing code, browsing documentation, or checking a design? Press <kbd>⌘ ⇧ E</kbd> to open Corral beside your mouse pointer in your current app. Your clipboard comes to where you’re working.</p>
+            <div class="menu-bar-example" role="img" aria-label="Illustrative macOS menu bar with the Corral fox icon">
+              <span>Finder</span><span class="menu-bar-space"></span><img src="assets/trayTemplate.png" width="20" height="20" alt="" /><span aria-hidden="true">⌕</span><span>12:34</span>
+            </div>
+            <p class="tray-description">Corral lives quietly in your menu bar, with no Dock icon. Click the fox to open your clipboard under the tray icon, or right-click for Library, Preferences, and Quit.</p>
+            <div class="flow-sequence" aria-label="Copy, find in Corral, then paste">
+              <span>Copy</span><span class="flow-arrow" aria-hidden="true">↗</span><span>Find</span><span class="flow-arrow" aria-hidden="true">↗</span><span>Paste</span>
+            </div>
+            <p class="small-copy">Choose E in Preferences to use <kbd>⌘ ⇧ E</kbd>, or pick your own letter. The default is <kbd>⌘ ⇧ R</kbd>.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="library-section wrap" id="library" aria-labelledby="libraryTitle">
+        <div class="section-intro reveal">
+          <div><p class="section-number">03 / A few things worth keeping</p><h2 id="libraryTitle">Give the useful<br />bits a name.</h2></div>
+          <p>That kubectl command you always look up. A local port forward. A reply you’ve written a hundred times. Save it once, and find it by a name that makes sense to you.</p>
+        </div>
+        <figure class="wide-screenshot reveal">
+          <img src="assets/screenshots/library-dark.png" data-screenshot="library" data-light-src="assets/screenshots/library-light.png" data-dark-src="assets/screenshots/library-dark.png" width="1840" height="1320" loading="lazy" alt="Corral Library with named snippets on the left and a snippet editor in the right sidebar." />
+          <figcaption><span>Saved names in the tray.</span><span>Full contents in the Library.</span></figcaption>
+        </figure>
+        <div class="library-footnote reveal"><span class="handwritten-mark" aria-hidden="true">↳</span><p>Read and search saved contents here. In the menu-bar popup, only your saved names are shown.</p></div>
+        <dl class="snippet-examples reveal" aria-label="Example Kubernetes snippets you can save">
+          <div><dt>Cluster overview</dt><dd><code>kubectl get pods -A</code></dd></div>
+          <div><dt>Follow API logs</dt><dd><code>kubectl logs -f deployment/api</code></dd></div>
+          <div><dt>Local port forward</dt><dd><code>kubectl port-forward service/api 8080:80</code></dd></div>
+        </dl>
+      </section>
+
+      <section class="notes-section" aria-labelledby="notesTitle">
+        <div class="wrap notes-layout">
+          <div class="notes-copy reveal">
+            <p class="section-number">04 / Somewhere for a passing thought</p>
+            <h2 id="notesTitle">A blank page.<br />A little breathing room.</h2>
+            <p>A thought, a checklist, a bit of text you’re still working on. Notes gives it an open writing space and saves as you type.</p>
+            <p class="small-copy">Plain text. A word count. One click to copy your note.</p>
+            <span class="notes-signoff">Leave it here. Come back when you’re ready.</span>
+          </div>
+          <figure class="notes-screenshot reveal">
+            <img src="assets/screenshots/notes-dark.png" width="880" height="1200" loading="lazy" alt="Corral Notes in dark appearance: a borderless writing area, Copy note button, word count and save status." />
+            <figcaption>A place to put it down.</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="tools-section wrap" aria-labelledby="toolsTitle">
+        <div class="tools-layout">
+          <div class="tools-copy reveal">
+            <p class="section-number">05 / The small, helpful details</p>
+            <h2 id="toolsTitle">For the everyday.<br />And the slightly nerdy.</h2>
+            <dl class="tools-list">
+              <div><dt>Commands, links &amp; little bits of code</dt><dd>Search your history, use the filters, or reach the first nine items with <kbd>⌘ 1</kbd> through <kbd>⌘ 9</kbd>.</dd></div>
+              <div><dt>Named snippets &amp; local backups</dt><dd>Keep frequently pasted text in the Library. Import a text file, or export a JSON backup to keep a copy of your data.</dd></div>
+              <div><dt>Your Mac, your preferences</dt><dd>Choose light, dark or system appearance. Set your shortcut, pick a fox, and keep a local backup.</dd></div>
+            </dl>
+          </div>
+          <figure class="preferences-screenshot reveal">
+            <img src="assets/screenshots/preferences-dark.png" data-screenshot="preferences" data-light-src="assets/screenshots/preferences-light.png" data-dark-src="assets/screenshots/preferences-dark.png" width="1840" height="1320" loading="lazy" alt="Corral Preferences alongside the snippet list, with shortcut, appearance and fox logo controls." />
+            <figcaption>Your Library and Preferences, side by side.</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="install-section" id="install" aria-labelledby="installTitle">
+        <div class="wrap">
+          <div class="install-heading reveal"><p class="section-number">06 / Welcome in</p><h2 id="installTitle">Make yourself at home.</h2></div>
+          <div class="install-layout">
+            <ol class="install-steps reveal">
+              <li><span class="step-number" aria-hidden="true">01</span><div><h3>Download Corral.</h3><p>An Apple Silicon build for your Mac.</p><a class="inline-download" href="https://github.com/Priyadharshan0903/Corral-Releases/releases/download/v1.3.1/Corral-1.3.1-arm64.zip" data-download>Get <span data-version>v1.3.1</span> <span aria-hidden="true">↗</span></a></div></li>
+              <li data-install-step="open"><span class="step-number" aria-hidden="true">02</span><div><h3 data-install-action>Unzip, then add it to Applications.</h3><p data-install-detail>Open the ZIP file, then move Corral.app into your Applications folder.</p></div></li>
+              <li><span class="step-number" aria-hidden="true">03</span><div><h3>Set your shortcut.</h3><p>Open Corral and look for the fox in your menu bar. Choose E in Preferences for <kbd>⌘ ⇧ E</kbd>. Fresh installs use <kbd>⌘ ⇧ R</kbd>.</p></div></li>
+            </ol>
+            <div class="faq reveal" aria-label="A few things to know">
+              <details><summary>Where does Corral live?<span aria-hidden="true">＋</span></summary><p>Corral runs in the background and lives in the macOS menu bar. Click its fox to open the tray popup. The global shortcut opens it beside your pointer; the Library is a separate window for snippets and Preferences.</p></details>
+              <details><summary>How do I extract text from an image?<span aria-hidden="true">＋</span></summary><p>Copy an image or screenshot, open Corral, and select the OCR tab. Open the image to run text recognition on your Mac. Use Copy all for the full text, or click a detected value to copy just a link, email, or other detail.</p></details>
+              <details><summary>Will it work on my Mac?<span aria-hidden="true">＋</span></summary><p>The download offered here is for Apple Silicon Macs. Check “About This Mac” for an Apple M-series chip.</p></details>
+              <details><summary>Why might macOS show a warning?<span aria-hidden="true">＋</span></summary><p>The current build isn’t signed with an Apple Developer ID or notarized by Apple. If macOS blocks the first launch, review the warning in System Settings → Privacy &amp; Security and use Open Anyway for the copy you downloaded from the <a href="https://github.com/Priyadharshan0903/Corral-Releases/releases/latest">official release page</a>. See <a href="https://support.apple.com/en-us/102445">Apple’s opening-apps guide</a> for the steps.</p></details>
+              <details><summary>Where does my clipboard go?<span aria-hidden="true">＋</span></summary><p>Clipboard history, saved snippets and Notes stay on your Mac. Image text extraction uses Apple Vision. Corral also checks its public GitHub release feed for app updates.</p></details>
+              <details><summary>Can it paste straight into my app?<span aria-hidden="true">＋</span></summary><p>Turn on Quick Paste in Preferences to paste selected text into your previous app. macOS Accessibility permission is required. You can also keep the usual copy-and-paste flow.</p></details>
+              <details><summary>Can I keep a backup?<span aria-hidden="true">＋</span></summary><p>Yes. Export a local JSON backup from Preferences, and import it when you need it.</p></details>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="closing-section wrap reveal" aria-labelledby="closingTitle">
+        <img src="assets/logo.svg" width="92" height="92" alt="" />
+        <p class="eyebrow">A little less searching. A little more doing.</p>
+        <h2 id="closingTitle">Your next copy<br />already has a home.</h2>
+        <a class="download-button" href="https://github.com/Priyadharshan0903/Corral-Releases/releases/download/v1.3.1/Corral-1.3.1-arm64.zip" data-download>Download Corral <span aria-hidden="true">↗</span></a>
+        <p class="download-caption">Apple Silicon · unsigned app</p>
+      </section>
+    </main>
+
+    <footer class="site-footer wrap">
+      <a class="brand footer-brand" href="#top"><img src="assets/logo.svg" width="29" height="29" alt="" /><span>Corral<span class="brand-period">.</span></span></a>
+      <p>A small project by <a href="https://github.com/Priyadharshan0903">Priyadharshan</a>.</p>
+      <a href="https://github.com/Priyadharshan0903/Corral-Releases/releases">Release notes <span aria-hidden="true">↗</span></a>
+    </footer>
+  </body>
+</html>

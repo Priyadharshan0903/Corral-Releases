@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://Priyadharshan0903.github.io/Corral-Releases/sitemap.xml

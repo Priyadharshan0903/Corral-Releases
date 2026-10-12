@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-labelledby="fox-title">
+  <title id="fox-title">Corral slate fox</title>
+  <style>
+    .fox-tail { transform-origin: 44px 81px; animation: tail-flick 7s ease-in-out infinite; }
+    @keyframes tail-flick {
+      0%, 76%, 92%, 100% { transform: rotate(0deg); }
+      81% { transform: rotate(-7deg); }
+      86% { transform: rotate(3deg); }
+    }
+    @media (prefers-reduced-motion: reduce) { .fox-tail { animation: none; } }
+  </style>
+  <path fill="#596069" d="M44 43 C31 48 19 61 17 75 C15 86 27 91 44 91 L63 91 C71 83 70 65 61 49 Z"/>
+  <path fill="#ead8c7" d="M35 48 Q48 54 61 48 Q58 63 48 73 Q39 64 35 48 Z"/>
+  <path fill="none" stroke="#353c44" stroke-width="1.8" stroke-linecap="round" d="M33 70 Q30 77 33 82"/>
+  <g class="fox-tail">
+    <path fill="#596069" d="M35 79 C48 71 66 62 90 63 C91 76 81 87 65 90 C50 93 40 89 35 79 Z"/>
+    <path fill="#d28b5e" stroke="#975c40" stroke-width="1.6" stroke-linejoin="round" d="M68 66 Q79 62 90 63 Q91 75 81 83 L74 80 L78 75 L66 74 Z"/>
+  </g>
+  <path fill="#596069" d="M22 31 L25 7 Q26 4 28 7 L42 23 Q49 20 55 23 L69 7 Q72 4 72 8 L75 31 L81 44 C73 48 63 51 58 54 L48 60 L38 54 C31 51 23 48 16 44 Z"/>
+  <path fill="#353c44" d="M27 13 L37 26 L25 30 Z"/>
+  <path fill="#353c44" d="M68 13 L59 26 L71 30 Z"/>
+  <path fill="#d28b5e" d="M16 44 C28 41 40 45 48 52 C56 45 69 42 81 44 C68 51 60 51 48 60 C36 51 26 50 16 44 Z"/>
+  <ellipse fill="#23282e" cx="36" cy="39" rx="2.8" ry="3.1"/>
+  <ellipse fill="#23282e" cx="60" cy="39" rx="2.8" ry="3.1"/>
+  <path fill="#23282e" d="M44.7 52 Q48 49.8 51.3 52 Q50.6 55 48 55 Q45.4 55 44.7 52 Z"/>
+</svg>

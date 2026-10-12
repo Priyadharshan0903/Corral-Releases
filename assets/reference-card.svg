@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="400" viewBox="0 0 560 400" role="img" aria-labelledby="title description">
+  <title id="title">Example developer reference image</title>
+  <desc id="description">Illustrative sample content: Kubernetes command kubectl get pods -A, documentation link https://example.com/docs, and contact email hello@example.com.</desc>
+  <rect width="560" height="400" rx="14" fill="#fcfaf6"/>
+  <path d="M14 0h532a14 14 0 0 1 14 14v34H0V14A14 14 0 0 1 14 0" fill="#eee7dc"/>
+  <g fill="#b5ac9c"><circle cx="24" cy="24" r="4"/><circle cx="39" cy="24" r="4"/><circle cx="54" cy="24" r="4"/></g>
+  <g font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" fill="#33392f">
+    <text x="280" y="29" text-anchor="middle" font-size="12" fill="#726f63">A useful bit of documentation</text>
+    <text x="35" y="93" font-size="23" font-weight="600">Cluster overview</text>
+    <text x="35" y="122" font-size="14" fill="#726f63">List pods across all namespaces.</text>
+    <rect x="35" y="145" width="490" height="56" rx="6" fill="#30372e"/>
+    <text x="55" y="180" font-family="ui-monospace, Menlo, monospace" font-size="18" fill="#f7f3eb">kubectl get pods -A</text>
+    <text x="35" y="247" font-size="15" font-weight="600">Documentation</text>
+    <text x="35" y="274" font-size="17" fill="#a75031">https://example.com/docs</text>
+    <text x="35" y="321" font-size="15" font-weight="600">Contact</text>
+    <text x="35" y="348" font-size="17" fill="#a75031">hello@example.com</text>
+  </g>
+</svg>
