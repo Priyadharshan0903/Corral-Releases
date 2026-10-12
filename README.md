@@ -152,8 +152,9 @@ Other published downloads are on [Corral Releases](https://github.com/Priyadhars
 
 Clipboard history, snippets, and notes are stored locally at
 `~/Library/Application Support/Corral/corral-data.json`. Corral does not upload
-clipboard contents to a cloud service. Update checks contact GitHub for release
-metadata and downloads; JSON backup files stay wherever you save them.
+clipboard contents to a cloud service. Update checks read the website's public
+release feed, with GitHub's Releases API as a fallback; downloads come from
+GitHub Releases. JSON backup files stay wherever you save them.
 
 ## Development
 
