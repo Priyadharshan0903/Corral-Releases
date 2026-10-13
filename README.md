@@ -76,7 +76,7 @@ in the tray popup. Copy a snippet with a click or a keyboard shortcut.
 | Things you just copied | Captures text, links, and images; search and filter recent items. |
 | Commands, links, and repeat replies | Save named snippets, edit their contents, and import text files by line or as a whole. |
 | A thought you want to keep | Notes saves automatically, with a word count, copy button, and retry feedback. |
-| Your current workspace | A global shortcut opens the popup beside your pointer; pin it to keep it open across Spaces. |
+| Your current workspace | A global shortcut opens the popup beside your pointer; pin it to keep it open across Spaces. An unpinned popup dismisses when you switch Spaces. |
 | Your preferred look | Light, Dark, or System appearance; Classic, Amber, or Slate foxes with a small tail flick. |
 
 The Library gives saved snippets room to breathe: names and previews on the
